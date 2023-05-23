@@ -6,9 +6,9 @@ alt_tema.addEventListener('click', () => {
 
     document.body.classList.toggle('modo-escuro')    
     if(body.classList=='modo-escuro'){
-        alt_imagem.setAttribute('src',"CSS/imagens/sun.png");}
+        alt_imagem.setAttribute('src',"https://jjunior112.github.io/imagens/sun.png");}
     else{
-        alt_imagem.setAttribute('src',"CSS/imagens/moon.png");
+        alt_imagem.setAttribute('src',"https://jjunior112.github.io/imagens/moon.png");
     }
     })
 
