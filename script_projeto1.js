@@ -10,13 +10,13 @@ alt_tema.addEventListener('click', () => {
     imagem.classList.toggle('modo-escuro');
 
     if(imagem.classList=='modo-escuro'){
-        alt_imagem.setAttribute('src','https://jjunior112.github.io/Portfolio_dev/sun.png' );
-        alt_game.setAttribute('src','https://jjunior112.github.io/Portfolio_dev/mini-game.png');
+        alt_imagem.setAttribute('src','https://jjunior112.github.io/imagens/sun.png' );
+        alt_game.setAttribute('src','https://jjunior112.github.io/imagens/mini-game.png');
     }
     else{
-        alt_imagem.setAttribute('src','https://jjunior112.github.io/Portfolio_dev/moon.png');
+        alt_imagem.setAttribute('src','https://jjunior112.github.io/imagens/moon.png');
 
-        alt_game.setAttribute('src','https://jjunior112.github.io/Portfolio_dev/mini-game-escuro.png');
+        alt_game.setAttribute('src','https://jjunior112.github.io/imagens/mini-game-escuro.png');
     }
    
 })
@@ -27,9 +27,9 @@ const alt_logo = document.querySelector('.logo');
 surgir.addEventListener('click', () =>{
     main.classList.toggle('empty');
     if(main.classList=='empty'){
-    alt_logo.setAttribute('src','https://jjunior112.github.io/Portfolio_dev/pokeball.png' );}
+    alt_logo.setAttribute('src','https://jjunior112.github.io/imagens/pokeball.png' );}
     else{
-        alt_logo.setAttribute('src','https://jjunior112.github.io/Portfolio_dev/pokeball-ativa.png' );
+        alt_logo.setAttribute('src','https://jjunior112.github.io/imagens/pokeball-ativa.png' );
     }
 })
 
