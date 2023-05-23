@@ -17,27 +17,27 @@ caterpie.addEventListener('click', () =>{
     dino.style.widht = '180px'
 });
 charizard.addEventListener('click', () =>{
-    dino.style.backgroundImage = 'url(charizard.gif)'
+    dino.style.backgroundImage = 'url(https://jjunior112.github.io/imagens/charizard.gif)'
     dino.style.height = '185px'
     dino.style.widht = '190px'
 });
 wartorle.addEventListener('click', () =>{
-    dino.style.backgroundImage = 'url(wartortle.gif)'
+    dino.style.backgroundImage = 'url(https://jjunior112.github.io/imagens/wartortle.gif)'
     dino.style.height = '170px'
     dino.style.widht = '190px'
 });
 pikachu.addEventListener('click', () =>{
-    dino.style.backgroundImage = 'url(pikachu.gif)'
+    dino.style.backgroundImage = 'url(https://jjunior112.github.io/imagens/pikachu.gif)'
     dino.style.height = '145px'
     dino.style.widht = '185px'
 });
 blastoise.addEventListener('click', () =>{
-    dino.style.backgroundImage = 'url(blastoise.gif)'
+    dino.style.backgroundImage = 'url(https://jjunior112.github.io/imagens/blastoise.gif)'
     dino.style.height = '165px'
     dino.style.widht = '190px'
 });
 squirtle.addEventListener('click', () =>{
-    dino.style.backgroundImage = 'url(squirtle.gif)'
+    dino.style.backgroundImage = 'url(https://jjunior112.github.io/imagens/squirtle.gif)'
     dino.style.height = '195px'
     dino.style.widht = '190px'
 });
@@ -108,10 +108,10 @@ const chg_imagem = document.querySelector('.imagem-botao');
         imagem1.classList.toggle('modo-escuro');
     
         if(imagem1.classList=='modo-escuro'){
-            chg_imagem.setAttribute('src','https://jjunior112.github.io/Portfolio_dev/sun.png' );
+            chg_imagem.setAttribute('src','https://jjunior112.github.io/imagens/sun.png' );
         }
         else{
-            chg_imagem.setAttribute('src','https://jjunior112.github.io/Portfolio_dev/moon.png');
+            chg_imagem.setAttribute('src','https://jjunior112.github.io/imagens/moon.png');
         }
        
     })
