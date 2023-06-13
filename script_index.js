@@ -12,9 +12,9 @@ altTema.addEventListener('click', () =>{
     body.classList.toggle('modo-claro');
 
     if(body.classList=='modo-claro'){
-        altTema.setAttribute('src','css/imagens/moon.png')
+        altTema.setAttribute('src','https://jjunior112.github.io/imagens/moon.png')
     }
     else{
-        altTema.setAttribute('src','css/imagens/sun.png')
+        altTema.setAttribute('src','https://jjunior112.github.io/imagens/sun.png')
     }
 })
